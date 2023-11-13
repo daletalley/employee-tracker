@@ -1,15 +1,17 @@
-// Load dependencies
-const mysql = require("mysql");
+//server.js
+// Dependencies
+const mysql = require("mysql2");
 const inquirer = require("inquirer");
 
 // Creates a connection to the SQL database
 const connection = mysql.createConnection({
-  host: "localhost",
-  port: 3306,
-  user: "root",
-  password: "Nxxsk811!seaBa55",
-  database: "employee_db",
-});
+    host: 'localhost', // or the appropriate hostname of your MySQL server
+    port: 3306,       // make sure this is your MySQL server's port
+    user: 'root',     // your MySQL username
+    password: '3063091Dt!', // your MySQL password
+    database: 'employee_db', // your database name
+  });
+  
 
 // Connects to the SQL server and the SQL database
 connection.connect(function (err) {
