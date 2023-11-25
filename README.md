@@ -33,9 +33,7 @@ Employee Tracker is a command-line application for managing a company's employee
 
 Contributions to improve the Employee Tracker are welcome. Please ensure to update tests as appropriate.
 
-## License
-
-[ISC](https://opensource.org/licenses/ISC)
-
 ## Video Walkthrough
 
+[
+](https://drive.google.com/file/d/14_EC2JInARzmb790uBgRFBp8D-5HO0Ox/view)https://drive.google.com/file/d/14_EC2JInARzmb790uBgRFBp8D-5HO0Ox/view
