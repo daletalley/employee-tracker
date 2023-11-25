@@ -15,12 +15,12 @@ Employee Tracker is a command-line application for managing a company's employee
 ## Installation
 
 1. Clone the repository to your local machine.
-2. Run `npm install` to install necessary dependencies.
+2. Run `npm install` to install the necessary dependencies.
 3. Set up a MySQL database and update the `.env` file with your MySQL credentials.
 
 ## Usage
 
-1. To start the application, run `node server.js` in your terminal.
+1. To start the application, run `npm start` in your terminal.
 2. Use the command-line prompts to navigate through the application.
 3. Choose from various options to view, add, update, or delete information in the database.
 
@@ -31,7 +31,7 @@ Employee Tracker is a command-line application for managing a company's employee
 
 ## Contributing
 
-Contributions to improve Employee Tracker are welcome. Please ensure to update tests as appropriate.
+Contributions to improve the Employee Tracker are welcome. Please ensure to update tests as appropriate.
 
 ## License
 
