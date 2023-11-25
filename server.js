@@ -4,7 +4,7 @@ require("dotenv").config();
 const mysql = require("mysql2");
 const inquirer = require("inquirer");
 
-// Creates a connection to the SQL database
+// Create a connection to the SQL database
 const connection = mysql.createConnection({
   host: process.env.DB_HOST,
   port: 3306,
@@ -13,16 +13,13 @@ const connection = mysql.createConnection({
   database: process.env.DB_NAME,
 });
 
-// Checking the connection to the SQL server
-connection.connect(function (err) {
-  if (err) throw err;
-  console.log(`Connected to MySQL server on port ${connection.config.port}`);
-});
-
-
 // Connects to the SQL server and the SQL database
 connection.connect(function (err) {
-  if (err) throw err;
+  if (err) {
+    console.error("Error connecting: " + err.stack);
+    return;
+  }
+  console.log("Connected to MySQL server on port " + connection.config.port);
   cli_prompt();
 });
 

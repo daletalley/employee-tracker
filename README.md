@@ -1,26 +1,41 @@
-# Employee-Tracker
+# Employee Tracker
 
 ## Description
-This project showcases the creation of an application backed by a MySQL database, capable of managing employee information within an organization. It emphasizes the practical implementation of SQL queries to facilitate CRUD operations in response to user inputs.
+
+Employee Tracker is a command-line application for managing a company's employee database. It offers a user-friendly interface for non-technical users to interact with information stored in a database. Built using Node.js, Inquirer, and MySQL, this application makes it easy to view and modify employees, roles, and departments within a company.
+
+## Features
+
+- View all departments, roles, and employees
+- Add new departments, roles, and employees
+- Update employee roles
+- Remove employees
+- Easy-to-use command-line interface
 
 ## Installation
-This application is not hosted online, hence it doesn't have a live deployment. Detailed instructions for installation and operation are available in the walkthrough video linked at the bottom of this document.
 
-The technology stack includes Node.js, MySQL2, and the Inquirer package for command-line interactions.
+1. Clone the repository to your local machine.
+2. Run `npm install` to install necessary dependencies.
+3. Set up a MySQL database and update the `.env` file with your MySQL credentials.
 
 ## Usage
-The Dale-Employee-Tracker serves as a simulated backend system for organizational employee management. The system captures details about employees, the departments they belong to, and their respective roles. This example also delineates the development lifecycle of such a system, including data seeding and manipulation based on user commands.
 
-## How to Seed the Database
-To seed the database with initial data, navigate to the project directory in your command line and run the following command:
+1. To start the application, run `node server.js` in your terminal.
+2. Use the command-line prompts to navigate through the application.
+3. Choose from various options to view, add, update, or delete information in the database.
 
-```bash
-mysql -u root -p <path_to_your_seeds.sql>
-```
+## Database Setup
 
-## How to Run the Application
-To run the application, navigate to the project directory in your command line and run the following command:
+1. Run the provided SQL scripts to create and seed the database.
+2. Ensure your MySQL server is running and accessible.
 
-```bash
-node server.js
-``` 
+## Contributing
+
+Contributions to improve Employee Tracker are welcome. Please ensure to update tests as appropriate.
+
+## License
+
+[ISC](https://opensource.org/licenses/ISC)
+
+## Video Walkthrough
+
